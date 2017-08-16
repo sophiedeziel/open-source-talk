@@ -1,0 +1,141 @@
+Resources
+
+Non-code open-source examples:
+
+
+Beer recipes https://www.brewdog.com/diydog
+Code of conduct https://contributor-covenant.org/
+Board game http://www.opensourceboardgame.org/
+Checklists http://github.com/montrealrb/playbook/blob/master/checklists/meetup.md
+
+Github guides: https://guides.github.com
+Try git command-line: https://try.github.io/
+chose a licence: choosealicense.com
+Code of conduct: contributor-covenant.org
+SemVer: https://www.sitepoint.com/semantic-versioning-why-you-should-using/
+
+
+
+
+________________
+
+
+Hello!
+My name is Sophie. I am a software developer working mostly with Ruby on Rails @ Acquisio. I run the Montreal’s Ruby meetups, which you are super welcome. September nineteenth. I also love my two rabbits, brew my own beer and GIFS. 
+________________
+
+
+Before we start, I’d like to know how many people:
+* played with an arduino or raspberry-pi
+* have ToDo lists
+* have written a line of code
+* have a website
+* have a github account
+* created a recipe
+* collected data
+________________
+
+
+I’m asking that because open-source is not only about code. It is mainly used for software, but you can open-source about anything. 
+
+* You can find open-source beer recipes (https://www.brewdog.com/diydog)
+* code of conduct (https://contributor-covenant.org/)
+* board games (http://www.opensourceboardgame.org/)
+* Lists (https://github.com/montrealrb/playbook/blob/master/checklists/meetup.md)
+Why open-source?
+* Give back to the community
+* Collaboration
+* Fresh ideas and feedback
+* Showcase your work and talent
+* It’s fun
+________________
+
+
+I will introduce to you how to 
+* chose what to open-source
+* What to be careful about
+* The tools to do it
+* How to publish
+* Manage the project and the community
+________________
+
+
+Well, actually it's not about what to open-source. Usually, you start something and you decide to open-source it as you start. But for a first project, it is a good idea to pick something that you already built. 
+I recommend starting like that because you will focus your learning efforts on the new tools. To demonstrate all of this, I will open-source this talk!
+________________
+
+
+There are some questions I want you to ask yourself.
+
+
+Identify
+
+
+The nature of what you want to open-source will dictate what you have to include and what to exclude.
+If it is existing code, is it the entire project or just a fraction of it you want to open-source? Do you have tests or documentation already?
+
+
+Gather
+Maybe you have documents on Google Drive. Maybe you have images on dropbox. Your datasets are in different spreadsheets. You want to gather everything in a folder to hold the entire project.
+
+
+Cleanup
+Is it in a state you can open-source?
+You might want to do some cleanups. You might also have to obfuscate things like personal infos, secrets, things you can't open-source. Be suuuuuper careful about personal infos and keys. You don’t want hackers to take over something you access with those keys. You don’t want to publish private information about other people. 
+________________
+
+
+Git is a tool on your computer to manage your code. It will help you manage versions by saving your individual changes into what we call "commits". You can also create branches of your project to try stuff without interfering with other parts of your project or other collaborators' work. 
+
+
+Github is a web application where you can host your Git repositories. It has powerful features to help collaboration. 
+
+
+
+
+I recommend learning about Github features so you can improve the project with collaborators. You will also have to learn what Git does on your computer and how to use it. The git command live is very useful when writing code or working offline. 
+________________
+
+
+This is the usual flow with Github. 
+
+
+When you start working on some changes, you typically open a new branch to not interfere with other collaborators and make sure that the master branch is always clean.
+
+
+Commit as many times as you want on a branch. 
+
+
+When you are ready to submit your work and merge it to the master branch, open a pull-request so others can view the changes, comment and approve. 
+
+
+Repeat!
+________________
+
+
+You want to think about licences. The licence is how you define who can use the project and how. Do you want attribution of your work? Do you allow people to use it commercially? This website will help you in choosing a licence template to include. 
+________________
+
+
+A code of conduct is very important too. This is the one I use for all my projects. Even if I am the only contributor to most of them, I signal that
+1- I am open to contributions
+2- People will be treated nicely
+3- I will act to make sure everybody is safe.
+The contributor covenant is one of the best out there, adopted by over 30 000 projects and is available in 26 languages. Make sure you read it carefully before you adopt it so you know exactly what you are committing to.
+________________
+
+
+If you are creating software or publishing datasets, version numbers can be a little bit puzzling. When do you bump numbers? Which one? What do they mean? There is a system call Semver, or Semantic Versioning. If you see that on other projects and you want to upgrade something, you will know exactly what to expect just looking at the number. The last one means a minor change, like a bug fix. Minor version might be improvements, additions, new features. Major means there are some changes makes the new and the old version incompatible. 
+________________
+
+
+Now, you might go into an endless fun loop of improvements! The fun transform a lot here. People often describes it as a roller coaster when the project gains a bit (or a lot) of popularity. You will want to improve all the things, people too. Requests, questions or bugs will happen pretty much anytime. The lone hacker myth, I hope you never believed in it because it is mostly a social job.
+________________
+
+
+Don't burn out
+I’m saying that because we’ve seen it a lot in high profile open-source communities. But it can happen to pretty much anybody deeply and emotionally involved in a project. You’ll spend a lot of your free time on it and it must stay fun. Listen to early signs and take care of your mental health.
+________________
+
+
+Thank you.
